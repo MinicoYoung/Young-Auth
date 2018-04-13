@@ -14,15 +14,16 @@ import java.security.Principal;
 
 @SpringBootApplication
 @RestController
-public class ClientApplication extends SpringBootServletInitializer {
+public class OrderClientApplication extends SpringBootServletInitializer {
     @Bean
     public RequestContextListener requestContextListener() {
         return new RequestContextListener();
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ClientApplication.class, args);
+        SpringApplication.run(OrderClientApplication.class, args);
     }
+
     @RequestMapping("UserInfo")
     public ResponseEntity getUser(Principal principal) {
         return new ResponseEntity(principal, HttpStatus.OK);

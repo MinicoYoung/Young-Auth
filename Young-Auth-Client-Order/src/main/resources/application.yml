@@ -1,0 +1,19 @@
+server:
+    port: 8084
+    session:
+      cookie:
+        name: UI2SESSION
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: SampleClientId
+      clientSecret: secret
+      accessTokenUri: http://localhost:8080/oauth/token
+      userAuthorizationUri: http://localhost:8080/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:8080/user
+spring:
+  thymeleaf:
+    cache: false

@@ -17,6 +17,7 @@
         <module>Young-Auth-Server</module>
         <module>Young-Auth-ResServer</module>
         <module>Young-Auth-Client</module>
+        <module>Young-Auth-Client-Order</module>
     </modules>
 
 </project>
