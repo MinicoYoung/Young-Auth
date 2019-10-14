@@ -20,7 +20,6 @@
             "expires_in": 43199,
             "scope": "read,write,foo,bar"
         }
-        
         2、访问资源
         http://localhost:8081/test?access_token=62840e93-1a9f-4152-ac84-eb1508c6bf2b 
         返回Hello Test
