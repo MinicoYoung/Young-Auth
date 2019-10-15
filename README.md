@@ -23,10 +23,8 @@
         2、访问资源
         http://localhost:8081/test?access_token=62840e93-1a9f-4152-ac84-eb1508c6bf2b 
         返回Hello Test
-        
 # Young-Auth-Server
 授权认证系统
     其中客户端和用户都是直接写在代码中的，可以根据自己需要将Client和Token存储在数据库中
-
 # 码云地址:https://gitee.com/meidea/Young-Auth.git     
 # GitHub地址:https://github.com/MinicoYoung/Young-Auth.git
